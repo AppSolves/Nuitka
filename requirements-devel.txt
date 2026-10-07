@@ -19,18 +19,18 @@ astroid == 3.0.2 ; python_version >= '3.9'
 
 # linting rest code snippets
 restructuredtext-lint==1.4.0 ; python_version >= '3.9'
-Pygments == 2.15.1 ; python_version >= '3.9'
+Pygments == 2.20.0 ; python_version >= '3.9'
 rstcheck == 6.2.0 ; python_version >= '3.9'
 
 # Auto-format needs
-black == 24.10.0 ; python_version >= '3.9'
+black == 26.3.1 ; python_version >= '3.9'
 toml >= 0.10.1 ; python_version >= '3.9'
 isort == 5.13.2 ; python_version >= '3.9'
 yamllint == 1.28.0 ; python_version >= '3.9'
 rstfmt == 0.0.14 ; python_version >= '3.9'
 jsonschema == 4.6.0 ; python_version >= '3.9'
 ruamel.yaml == 0.17.21 ; python_version >= '3.9'
-deepdiff == 8.6.1 ; python_version >= '3.9'
+deepdiff == 8.6.2 ; python_version >= '3.9'
 mdformat == 0.7.16 ; python_version >= '3.9'
 mdformat-gfm == 0.3.5 ; python_version >= '3.9'
 mdformat-frontmatter == 2.0.1 ; python_version >= '3.9'
@@ -44,7 +44,7 @@ doxypypy == 0.8.8.6 ; python_version >= '2.7'
 
 # Run time code generation needs Jinja2 now
 Jinja2 == 2.11.3 ; python_version == '2.7'
-Jinja2 == 3.1.4 ; python_version >= '3.7'
+Jinja2 == 3.1.6 ; python_version >= '3.7'
 
 # For the progress bar to look nice.
 tqdm == 4.64.1 ; python_version < '3.7'
